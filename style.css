@@ -1,0 +1,51 @@
+.head{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.size{
+    font-size: 3rem;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.btn1{
+    background-color: rgba(172, 255, 47, 0.658);
+    border: none;
+    padding: 1rem  2rem
+}
+
+.btn1:hover{
+    background-color: white;
+
+}
+
+.index{
+    box-shadow: 5px 5px 5px 5px rgba(172, 255, 47, 0.658);
+    padding: 2rem;
+}
+
+.ratio1{
+    background-color: rgba(172, 255, 47, 0.658);
+}
+
+.index:hover{
+    box-shadow: 10px 10px 5px 12px rgba(215, 218, 210, 0.993);
+}
+
+.foot a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .navbar1{
+        display: none;
+    }
+    .foot{
+        display: none;
+    }
+}
